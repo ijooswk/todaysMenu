@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">오늘의 식단</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">오늘의 식단</string>
+</resources>

@@ -1,0 +1,28 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/back_ground_imgbtn"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/start_btn"
+    android:onClick="mOnClick" >
+    <TextView 
+        android:id="@+id/main_page_text"
+        android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:gravity="center"
+    	android:textColor="#000000"
+    	android:layout_gravity="center_horizontal|bottom"
+    	android:layout_marginBottom="15dip"
+    	android:text="화면 클릭!!"
+    />
+    <ProgressBar 
+        
+        android:id="@+id/progress_bar"
+       	android:gravity="center"
+    	android:layout_gravity="center"
+        android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:visibility="gone"
+        />
+
+</FrameLayout>

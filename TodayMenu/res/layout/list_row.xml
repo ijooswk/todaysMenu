@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#FFFFFF"
+    android:orientation="horizontal" >
+<TextView 
+    android:layout_width="60dip"
+    android:layout_height="wrap_content"
+    android:textColor="#000000"
+    android:padding="5dip"
+    android:gravity="center"
+    android:id="@+id/textview_field1"
+    android:text="날짜"
+    />    
+<TextView 
+    android:layout_width="120dip"
+    android:layout_height="wrap_content"
+    android:textColor="#000000"
+    android:padding="5dip"
+    android:gravity="center"
+    android:id="@+id/textview_field2"
+    android:text="조식"
+    />    
+<TextView 
+    android:layout_width="120dip"
+    android:layout_height="wrap_content"
+    android:textColor="#000000"
+    android:padding="5dip"
+    android:gravity="center"
+    android:id="@+id/textview_field3"
+    android:text="중식(한)"
+    />   
+<TextView 
+    android:layout_width="120dip"
+    android:layout_height="wrap_content"
+    android:textColor="#000000"
+    android:padding="5dip"
+    android:gravity="center"
+    android:id="@+id/textview_field4"
+    android:text="중식(특)"
+    />    
+<TextView 
+    android:layout_width="120dip"
+    android:layout_height="wrap_content"
+    android:textColor="#000000"
+    android:padding="5dip"
+    android:gravity="center"
+    android:id="@+id/textview_field5"
+    android:text="석식"
+    />    
+    
+</LinearLayout>
